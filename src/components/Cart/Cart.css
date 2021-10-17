@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.bodyCart{
+    height: auto;
+    min-height: 90vh ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedorCardsCarro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedorProd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    border-bottom: 1px solid rgb(164, 162, 162);
+    
+}
+
+.imgEnCart{
+    width: 100px;
+}
+
+.precioTotal{
+    margin-top: 2rem;
+}
+
+.precioTotal p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.carritoVacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carritoVacio img {
+    width: 200px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.botonEliminar{
+    color: rgb(227, 13, 13);
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.botonEliminar:hover{
+    color:black
+}
+
+.botonSeguirComprando{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.botonVaciarCarrito{
+        margin: 1rem;
+        color: white;
+        font-weight: 700;
+        background-color: black;
+        border: 1.5px solid black;
+        margin: 2rem;
+}
+
+.contenedorMayor{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenedorTitulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 480px) {
+    
+    .bodyCart{
+        height: auto;
+        min-height: 60vh ;
+    } 
+    .contenedorProd{
+
+        width: 90%;
+    }
+    
+    .imgEnCart{
+        width: 60px;
+    }
+
+    .datosProductos {
+        font-size: 0.8rem;
+    }
+    
+    .precioTotal p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .carritoVacio img {
+        width: 100px;
+    }
+    
+    .botonEliminar{
+        font-size: 20px;
+
+    }
+    
+    .botonSeguirComprando{
+        margin: 0rem;
+    }
+    
+    .botonVaciarCarrito{
+
+        margin: 1rem;
+    }
+
+    .contenedorMayor{
+        width: 90%;
+    }
+    .contenedorTitulos{
+        width: 30%;
+        margin-top: 1rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #161616;
+    height: 80px;
+    align-items: center;
+}
+
+#collasible-nav-dropdown{
+    color: white;
+    text-decoration: none;
+}
+
+#collasible-nav-dropdown:hover{
+    color: rgb(49, 29, 233);
+    display: block;
+}
+
+.categorias {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.categorias:hover{
+    color:#212c37 !important;
+}
+
+.nav-link{
+    color: white !important; 
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(32, 29, 233) !important;
+}
+
+.logo {
+    width: 40px;
+}
+
+.cart {
+    font-size: 30px;
+    color: white;
+}
+
+.cart:hover{
+    color: rgb(32, 29, 233) !important;
+}
+
+.cartNumber{
+    background-color: rgb(38, 0, 255);
+    padding: 0.1rem 0.5rem 0.2rem 0.6rem;
+    color: white;
+    border-radius: 40%;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none  !important;
+}
+

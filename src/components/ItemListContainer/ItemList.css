@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+.conjuntoCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#conjuntoIconos{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoriaIconos{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: black;
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 480px) {
+
+    #conjuntoIconos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin: 0;
+    }
+
+    .categoriaIconos{
+        font-size: 1rem;
+    }
+}
+
+
+
+

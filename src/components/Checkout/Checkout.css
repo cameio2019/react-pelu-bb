@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.swal2-container.swal2-center>.swal2-popup{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: rgb(29, 28, 28);
+}
+
+.offcanvas.show {
+    font-family: 'Open Sans', sans-serif;
+}

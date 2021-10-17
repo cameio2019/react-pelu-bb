@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.itemDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 15, 15);
+    background-image: url(../../assets/img/pelu1-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedorCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 #999; 
+    background-color: white;
+
+}
+
+.contenedorCard h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cardDetalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+hr:not([size]) {
+    width: 70%;
+    height: 2px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.cardImg {
+    width: 400px;
+}
+
+.cardBody{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+}
+
+.cardBody h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.cardBody p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.cardBody li{
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.cardFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.precioProducto {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    color: #3c096c
+    
+}
+
+
+@media (max-width: 480px) {
+
+    .contenedorCard{
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 85%;
+    }
+    
+    .contenedorCard h1{
+        font-size: 1.5rem;
+    }
+    
+    .cardDetalle {
+        margin-right: 0;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .cardImg {
+        width: 300px;
+    
+    }
+    
+    .cardBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    .cardBody h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .cardBody p{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+    .precioProducto {
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin-top: 0;
+    }
+}
+
+
+
+@media (min-width: 480px) and (max-width: 1200px) {
+    
+    .contenedorCard{
+        flex-direction: row;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 70%;
+    }
+    
+    .contenedorCard h1{
+        font-size: 1.5rem;
+    }
+    
+    .cardDetalle {
+        margin-right: 0;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .cardImg {
+        width: 300px;
+    
+    }
+    
+    .cardBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    .cardBody h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .cardBody p{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+    .precioProducto {
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin-top: 0;
+    }
+    
+}

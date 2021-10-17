@@ -1,0 +1,25 @@
+.botones{
+    margin-bottom: 1.5rem;
+    outline: none;
+}
+
+.numeroContador{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.botonContador{
+    margin: 0.7rem;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: 1.5px solid black;
+    outline: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: rgb(22, 52, 223);
+    border-color: black;
+}
