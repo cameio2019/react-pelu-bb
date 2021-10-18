@@ -2,7 +2,7 @@
 Proyecto realizado en el curso de ReactJS de Coderhouse, en el cual se simula un ecommerce de productos de estilistas y peluquería.
 
 ## Demo
-Ver [Demo](https://nodejs.org/).
+Ver [Demo](https://ezearevaloreactbbecommerce.netlify.app/).
 
 ## Dependencias 
 - React-bootstrap: Framework utilizado para generar estilos css.
