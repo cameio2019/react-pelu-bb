@@ -6,7 +6,6 @@ import { IoEyeSharp } from "react-icons/io5";
 
 
 function Item(props){
-    
     return(
         <>
             <Card  className= "cardProducto" style={{ width: '25rem' }}>
@@ -16,7 +15,6 @@ function Item(props){
                     </Card.Body>
                     <Link to= {`/detalle/${props.id}`} >
                     <Button className= "botonContador"> <IoEyeSharp/></Button>
-                    {/* <Button className= "botonContador" onClick = {agregarAlCarrito}>Agregar al carrito</Button> */}
                     </Link>
             </Card> 
         </>

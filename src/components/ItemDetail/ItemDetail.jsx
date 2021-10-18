@@ -32,9 +32,8 @@ function ItemDetail( {producto={}} ) {
                     <h1>{producto.title}</h1>
                     <p>{producto.description}</p>
                     <hr />
-                
                 <div className="cardBody">
-                        <h3>Compuesto</h3>
+                        <h3>Características</h3>
                         <p>{producto.composicion}</p>
                         <div className= "cardFooter">
                             <label className="precioProducto">${producto.price}</label>

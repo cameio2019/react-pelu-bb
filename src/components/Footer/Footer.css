@@ -27,18 +27,13 @@
     margin-bottom:0;
     font-size: 0.9rem;
   }
-  
-  .footer-dark .item.social {
-    text-align:center;
-  }
-  
+
   @media (max-width:991px) {
     .footer-dark .item.social {
       text-align:center;
       margin-top:20px;
     }
   }
-  
   
   .footer-dark .copyright {
     text-align:center;
