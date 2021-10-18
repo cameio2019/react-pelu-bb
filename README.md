@@ -7,7 +7,7 @@ Ver [Demo](https://nodejs.org/).
 ## Dependencias 
 - React-bootstrap: Framework utilizado para generar estilos css.
 - React-icons: utilizado para la generacion de iconos.
-- React-router-dom: utilizado para la navegacion dinamica entre secciones de la app.
+- React-router-dom: utilizado para la navegacion dinámica entre secciones de la App.
 - React-router-hash-link: utilizado cuando al hacer  clic en un enlace, se desplazará hasta el elemento de la página con la identificación que coincide con el # fragmento hash en el enlace. 
 - Sweetalert2-react-content: generación de Alerts con "estilo".
 - Backend realizado con Firebase: utilizado el servicio para "simular" un Backend para la App.
