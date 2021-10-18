@@ -1,6 +1,7 @@
 ## Descripción del Proyecto
 Proyecto realizado en el curso de ReactJS de Coderhouse, en el cual se simula un ecommerce de productos de estilistas y peluquería.
 
+## Demo
 Ver [Demo](https://nodejs.org/).
 
 ## Dependencias 
