@@ -8,7 +8,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function ItemDetail( {producto={}} ) {
     const [cambiarBoton, setCambiarBoton] = useState(true)
-    const {addToCart} = useCartContext ()
+    const { addToCart} = useCartContext ()
 
     const onAdd = (count) =>{
         setCambiarBoton (false)
@@ -24,13 +24,13 @@ function ItemDetail( {producto={}} ) {
             <div className='cardDetalle'>
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                <Breadcrumb.Item href={`/categoria/${producto.categoria}`}>
-                    {producto.categoria}
-                </Breadcrumb.Item>
-            <Breadcrumb.Item active>{producto.title}</Breadcrumb.Item>
-        </Breadcrumb>
+                    <Breadcrumb.Item href={`/categoria/${producto.categoria}`}>
+                        {producto.categoria}
+                    </Breadcrumb.Item>
+                <Breadcrumb.Item active>{producto.title}</Breadcrumb.Item>
+            </Breadcrumb>
                     <h1>{producto.title}</h1>
-                    <p>{producto.description}</p>
+                    <p>{producto.description}</p>   
                     <hr />
                 <div className="cardBody">
                         <h3>Características</h3>

@@ -9,6 +9,7 @@ import 'firebase/firestore'
 import { useCartContext } from "../Context/cartContext"
 import "./Checkout.css"
 
+
 function Checkout({ name, ...props }) {
 
     const [show, setShow] = useState(false);

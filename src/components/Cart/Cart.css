@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .contenedorProd{
@@ -21,8 +20,7 @@
     justify-content: space-around;
     align-items: center;
     width: 50%;
-    border-bottom: 1px solid rgb(164, 162, 162);
-    
+    border-bottom: 1px solid rgb(164, 162, 162);   
 }
 
 .imgEnCart{
@@ -135,7 +133,6 @@
     }
     
     .botonVaciarCarrito{
-
         margin: 1rem;
     }
 

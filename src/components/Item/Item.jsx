@@ -13,7 +13,7 @@ function Item(props){
                 <Card.Body className= "cardBody">
                     <Card.Title className="tituloCard">{props.title}</Card.Title>
                     </Card.Body>
-                    <Link to= {`/detalle/${props.id}`} >
+                    <Link to= {`/item/${props.id}`} >
                     <Button className= "botonContador"> <IoEyeSharp/></Button>
                     </Link>
             </Card> 

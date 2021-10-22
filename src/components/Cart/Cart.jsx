@@ -35,17 +35,14 @@ return (
                     </div>
             </div>
                 {cartList.map(producto =>(
-
                     <div className="contenedorCardsCarro">
                         <div className="contenedorProd" key={producto.producto.id}>
-                            
                             <img src={producto.producto.imgUrl} className="imgEnCart" alt="imagen producto" />
                             <p className= "datosProductos">{producto.producto.title}</p>
                             <p className= "datosProductos">{producto.quantity} unidades</p>
                             <p className= "datosProductos">${producto.producto.price}</p>
                             <p className= "datosProductos">${(producto.producto.price * producto.quantity)}</p>
                             <p onClick={()=> removeItem(producto.producto.id)}><FaTrash /></p>
-        
                         </div>
                     </div>
                 ))}
@@ -59,7 +56,7 @@ return (
                     <Link to= {"/"}>
                             <Button className= "botonSeguirComprando">Seguir Comprando 🔥</Button>
                     </Link>
-                    </div>
+                </div>
                 <Checkout/>         
         </> 
         

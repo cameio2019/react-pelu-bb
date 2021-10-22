@@ -9,6 +9,8 @@ import Footer from './components/Footer/Footer'
 import  CartContextProvider  from "./components/Context/cartContext"
 
 
+
+
 function App() {
   return (
 
@@ -23,7 +25,7 @@ function App() {
 
               <Route  path= '/categoria/:idCategoria' component= {ItemListContainer} />
 
-              <Route exact path= '/detalle/:id'>
+              <Route exact path= '/item/:id'>
                 <ItemDetailContainer />
               </Route>
 

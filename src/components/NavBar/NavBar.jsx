@@ -26,28 +26,28 @@ return (
         <Nav className="me-auto">
                 <Link to="/" className="nav-link"> <BiHomeSmile style={{ width: '5rem', height:'40px'}}/></Link>
 
-            <NavDropdown title="Categorias" id="collasible-nav-dropdown">
+            <NavDropdown title="Categorías" id="collasible-nav-dropdown">
 
                 <NavDropdown.Item>
-                    <HashLink to="/#conjuntoIconos" className="categorias">
+                    <HashLink to="/#catIcons" className="categorias">
                         Todos
                     </HashLink>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                    <HashLink to="/categoria/shampoo/#conjuntoIconos" className="categorias">
+                    <HashLink to="/categoria/shampoo/#catIcons" className="categorias">
                         Shampoo
                     </HashLink>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                    <HashLink to="/categoria/vitaminas/#conjuntoIconos" className="categorias">
+                    <HashLink to="/categoria/vitaminas/#catIcons" className="categorias">
                         Vitamina
                     </HashLink>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                    <HashLink to="/categoria/mascaras/#conjuntoIconos" className="categorias">
+                    <HashLink to="/categoria/mascaras/#catIcons" className="categorias">
                         Mascaras
                     </HashLink>
                 </NavDropdown.Item>
