@@ -57,7 +57,7 @@ function ItemList () {
                 <Link to="/categoria/mascaras">
                     <img src="https://i.ibb.co/nDMtdjw/icons8-mascara-100.png" alt= "imagenmascaras"
                     style= {{width: "80px", margin: "1rem"}}  className="hvr-grow"/>
-                    <p className= "categoriaIconos">Mascaras</p>
+                    <p className= "categoriaIconos">Máscaras</p>
                 </Link>
                 </div>
             </div>

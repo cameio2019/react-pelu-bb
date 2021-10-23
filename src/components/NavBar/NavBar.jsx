@@ -48,7 +48,7 @@ return (
 
                 <NavDropdown.Item>
                     <HashLink to="/categoria/mascaras/#catIcons" className="categorias">
-                        Mascaras
+                        Máscaras
                     </HashLink>
                 </NavDropdown.Item>
             </NavDropdown>
