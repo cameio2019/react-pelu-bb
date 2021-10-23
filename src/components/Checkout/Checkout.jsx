@@ -122,11 +122,11 @@ function Checkout({ name, ...props }) {
                     <Form.Floating className="mb-3">
                         <Form.Control 
                         required type="tel" 
-                        placeholder="Tu Telefono"
+                        placeholder="Tu Teléfono"
                         name="tel"  
                         value={formData.tel} 
                         />
-                        <Form.Label>Tu Telefono</Form.Label>
+                        <Form.Label>Tu Teléfono</Form.Label>
                     </Form.Floating>
                 </Form.Group>    
 
