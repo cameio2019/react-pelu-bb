@@ -9,33 +9,30 @@ import Footer from './components/Footer/Footer'
 import  CartContextProvider  from "./components/Context/cartContext"
 
 
-
-
 function App() {
   return (
 
   <CartContextProvider>
     <BrowserRouter>
-      <div className= "App">
-        <NavBar /> 
-          <Switch> 
-              <Route  exact path= '/' >
-                <ItemListContainer  /> 
-              </Route>
+        <div className= "App">
+          <NavBar /> 
+            <Switch> 
+                <Route  exact path= '/' >
+                  <ItemListContainer  /> 
+                </Route>
+                
+                <Route  path= '/categoria/:idCategoria' component= {ItemListContainer} />
+                
+                <Route exact path= '/item/:id'><ItemDetailContainer />
+                
+                </Route>
+                <Route exact path= '/cart'>
+                  <Cart />
+                </Route>
+          </Switch>
 
-              <Route  path= '/categoria/:idCategoria' component= {ItemListContainer} />
-
-              <Route exact path= '/item/:id'>
-                <ItemDetailContainer />
-              </Route>
-
-              <Route exact path= '/cart'> 
-                <Cart />
-              </Route>
-        </Switch>
-
-        <Footer /> 
-      </div>
+          <Footer /> 
+        </div>
     </BrowserRouter>
   </CartContextProvider>
 
