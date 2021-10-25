@@ -4,7 +4,7 @@ Proyecto realizado en el curso de ReactJS de Coderhouse, en el cual se simula un
 ## Demo
 Ver [Demo](https://ezearevaloreactbbecommerce.netlify.app/)!
 
-![gif](./bbreactGifFinal.gif)
+![png](./captura.png)
 
 ## Dependencias 
 - React-bootstrap: Framework utilizado para generar estilos css.
